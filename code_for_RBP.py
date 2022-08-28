@@ -5,10 +5,14 @@
 import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(4,GPIO.IN)
+file = open("text.txt", "a")
 for i in range(0,5):
-    print (GPIO.input(4))
+    a = GPIO.input(4)
+    
+    print(a)
 
-# write to a file
+    # write to a file
+    file.write(a)
 
 # start client and send file to the server
 
