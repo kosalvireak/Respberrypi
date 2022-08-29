@@ -24,3 +24,5 @@ while True:
     client.send(data.encode(FORMAT))
 
 ```
+
+### people can easily access by website, if our server change from `localhost` to our `ipaddress`
