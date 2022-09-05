@@ -2,6 +2,7 @@
 import socket
 
 IP = socket.gethostbyname(socket.gethostname())
+#IP = '192.168.0.115'
 PORT = 4455
 ADDR = (IP, PORT)
 SIZE = 1024

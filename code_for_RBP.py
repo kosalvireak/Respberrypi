@@ -19,6 +19,7 @@ for i in range(0,5):
 import socket
 
 IP = socket.gethostbyname(socket.gethostname())
+#IP = '192.168.0.115'
 PORT = 4455
 ADDR = (IP, PORT)
 FORMAT = "utf-8"
